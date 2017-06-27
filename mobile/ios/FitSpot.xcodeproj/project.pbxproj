@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1277363DDCA442D18202234D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A221A9A7A4B85A6996852 /* FontAwesome.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1CB3F596F639411298D196D1 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BD41F438E1A40A8A09EEF87 /* Entypo.ttf */; };
+		227BE2275D7E0BC3246711B3 /* libPods-FitSpot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B3BA128517FA2BF810BAAA /* libPods-FitSpot.a */; };
+		30749D7CBA424E1688AE6B79 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F29634D95D68466DB5C182E1 /* MaterialIcons.ttf */; };
+		5931D89BF46E4749AEA0D2A1 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC24F749A3FB4B7599CCF1D5 /* Octicons.ttf */; };
+		5E1F0503D02945EEACFE14DB /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9840999417B44B8EAE8A44A8 /* MaterialCommunityIcons.ttf */; };
+		95DAC0C88A9C47729D1B84CE /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC507EC946BF4606909E17C0 /* EvilIcons.ttf */; };
+		AF057679150642C791FEFFF7 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE35925EAF6C4228897ED98D /* Foundation.ttf */; };
+		AFADCAF5686D4D0D8B3155E8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1F69B81BEEF494890C1BBD6 /* Zocial.ttf */; };
+		D82BD82C1E76691700E166D6 /* RCTVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = D82BD8241E76691700E166D6 /* RCTVideo.m */; };
+		D82BD82D1E76691700E166D6 /* RCTVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82BD8271E76691700E166D6 /* RCTVideoPlayerViewController.m */; };
+		D82BD82E1E76691700E166D6 /* RCTVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D82BD8291E76691700E166D6 /* RCTVideoManager.m */; };
+		D82BD82F1E76691700E166D6 /* UIView+FindUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82BD82B1E76691700E166D6 /* UIView+FindUIViewController.m */; };
+		DC5986551E3670AA004FE1EA /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5986541E3670AA004FE1EA /* EventKit.framework */; };
+		DC7451001E27EB0C002BCCBF /* BrainTreePayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7450FF1E27EB0C002BCCBF /* BrainTreePayManager.m */; };
+		DCA6BC041DE4A49F005782CB /* Daytona W01 Fat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCA6BBF21DE4A487005782CB /* Daytona W01 Fat.ttf */; };
+		DCA6BC061DE4A8FC005782CB /* Daytona W01 Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCA6BC051DE4A8F8005782CB /* Daytona W01 Regular.ttf */; };
+		DCA6BC081DE4F51C005782CB /* Daytona W01 Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCA6BC071DE4F51C005782CB /* Daytona W01 Semibold.ttf */; };
+		DCE5C6FE1DDA40D2005A4FB4 /* Daytona W01 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCE5C6EB1DDA40C4005A4FB4 /* Daytona W01 Bold.ttf */; };
+		DCE5C6FF1DDA40D2005A4FB4 /* Daytona W01 Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCE5C6EC1DDA40C4005A4FB4 /* Daytona W01 Light.ttf */; };
+		DCF2BE101E36B0F400E60E41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF2BE0F1E36B0F400E60E41 /* UIKit.framework */; };
+		DCF2BE121E36B10A00E60E41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF2BE111E36B10A00E60E41 /* Foundation.framework */; };
+		DCF2BE141E36B1C700E60E41 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF2BE131E36B1C700E60E41 /* EventKitUI.framework */; };
+		DCF2BF9E1E36B4A300E60E41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCF2BF581E36B4A300E60E41 /* Localizable.strings */; };
+		DCF2BFA21E36B4A300E60E41 /* MGCCalendarHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCF2BF611E36B4A300E60E41 /* MGCCalendarHeaderCell.xib */; };
+		DCF2C0071E36B73100E60E41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF2BE0D1E36B0EB00E60E41 /* CoreGraphics.framework */; };
+		DCFD07CC1E3A589800DA5CEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFD07CB1E3A589800DA5CEA /* CoreLocation.framework */; };
+		DCFD07F81E3A8B8200DA5CEA /* BookAvailabilityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFD07F61E3A8B8200DA5CEA /* BookAvailabilityViewController.xib */; };
+		E4AC1EF4E8FB42E38085315C /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 548F994994984CEA8500CE3A /* SimpleLineIcons.ttf */; };
+		EE2C08081E89BE330046F6D0 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = EE2C08061E89BE330046F6D0 /* main.jsbundle */; };
+		EE2C08091E89BE330046F6D0 /* main.jsbundle.meta in Resources */ = {isa = PBXBuildFile; fileRef = EE2C08071E89BE330046F6D0 /* main.jsbundle.meta */; };
+		F9D89D92F27845739464DCE8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9AA7DCCC7A420CB69B595B /* Ionicons.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTests.m; sourceTree = "<group>"; };
+		035D372FCCA3CBFD41E0A452 /* Pods-FitSpot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitSpot.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitSpot/Pods-FitSpot.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* FitSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = App/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = App/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = App/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = App/main.m; sourceTree = "<group>"; };
+		15B3BA128517FA2BF810BAAA /* libPods-FitSpot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitSpot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1939F4592CB52F68270F3090 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
+		1BD41F438E1A40A8A09EEF87 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		4B0A221A9A7A4B85A6996852 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		548F994994984CEA8500CE3A /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		7C9AA7DCCC7A420CB69B595B /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		82BBEBD1B06CEFC0BEC061A3 /* Pods-FitSpot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitSpot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitSpot/Pods-FitSpot.debug.xcconfig"; sourceTree = "<group>"; };
+		9840999417B44B8EAE8A44A8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		AC24F749A3FB4B7599CCF1D5 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		BC507EC946BF4606909E17C0 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		CA52C170BA3824A9C45A041F /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
+		D82BD8231E76691700E166D6 /* RCTVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTVideo.h; sourceTree = "<group>"; };
+		D82BD8241E76691700E166D6 /* RCTVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTVideo.m; sourceTree = "<group>"; };
+		D82BD8251E76691700E166D6 /* RCTVideoPlayerViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTVideoPlayerViewControllerDelegate.h; sourceTree = "<group>"; };
+		D82BD8261E76691700E166D6 /* RCTVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTVideoPlayerViewController.h; sourceTree = "<group>"; };
+		D82BD8271E76691700E166D6 /* RCTVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTVideoPlayerViewController.m; sourceTree = "<group>"; };
+		D82BD8281E76691700E166D6 /* RCTVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTVideoManager.h; sourceTree = "<group>"; };
+		D82BD8291E76691700E166D6 /* RCTVideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTVideoManager.m; sourceTree = "<group>"; };
+		D82BD82A1E76691700E166D6 /* UIView+FindUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindUIViewController.h"; sourceTree = "<group>"; };
+		D82BD82B1E76691700E166D6 /* UIView+FindUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindUIViewController.m"; sourceTree = "<group>"; };
+		DC0D544C1E6CB8D4004CC185 /* FitSpot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitSpot.entitlements; sourceTree = "<group>"; };
+		DC59862D1E365369004FE1EA /* TrainerAvailabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainerAvailabilityManager.h; sourceTree = "<group>"; };
+		DC59862E1E365369004FE1EA /* TrainerAvailabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainerAvailabilityManager.m; sourceTree = "<group>"; };
+		DC59864C1E366B07004FE1EA /* MonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthViewController.h; sourceTree = "<group>"; };
+		DC59864D1E366B07004FE1EA /* MonthViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthViewConroller.m; sourceTree = "<group>"; };
+		DC59864F1E366B1E004FE1EA /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
+		DC5986501E366B1E004FE1EA /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
+		DC5986521E367038004FE1EA /* CalendarLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CalendarLib.framework; path = "../../../../Library/Developer/Xcode/DerivedData/App-gtinfqqxpmaeslgbnzrvbjpwgqpd/Build/Products/Debug-iphonesimulator/CalendarLib/CalendarLib.framework"; sourceTree = "<group>"; };
+		DC5986541E3670AA004FE1EA /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		DC5986561E368A9A004FE1EA /* TrainerCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainerCalendarManager.h; sourceTree = "<group>"; };
+		DC5986571E368A9A004FE1EA /* TrainerCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainerCalendarManager.m; sourceTree = "<group>"; };
+		DC7450FE1E27EB0C002BCCBF /* BrainTreePayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrainTreePayManager.h; sourceTree = "<group>"; };
+		DC7450FF1E27EB0C002BCCBF /* BrainTreePayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrainTreePayManager.m; sourceTree = "<group>"; };
+		DCA6BBF21DE4A487005782CB /* Daytona W01 Fat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Daytona W01 Fat.ttf"; sourceTree = "<group>"; };
+		DCA6BC051DE4A8F8005782CB /* Daytona W01 Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Daytona W01 Regular.ttf"; sourceTree = "<group>"; };
+		DCA6BC071DE4F51C005782CB /* Daytona W01 Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Daytona W01 Semibold.ttf"; sourceTree = "<group>"; };
+		DCE5C6EB1DDA40C4005A4FB4 /* Daytona W01 Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Daytona W01 Bold.ttf"; sourceTree = "<group>"; };
+		DCE5C6EC1DDA40C4005A4FB4 /* Daytona W01 Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Daytona W01 Light.ttf"; sourceTree = "<group>"; };
+		DCF2BD771E36AF4B00E60E41 /* OrderedDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OrderedDictionary.framework; path = "../../../../Library/Developer/Xcode/DerivedData/App-gtinfqqxpmaeslgbnzrvbjpwgqpd/Build/Products/Debug-iphonesimulator/OrderedDictionary/OrderedDictionary.framework"; sourceTree = "<group>"; };
+		DCF2BD781E36AF4B00E60E41 /* OSCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSCache.framework; path = "../../../../Library/Developer/Xcode/DerivedData/App-gtinfqqxpmaeslgbnzrvbjpwgqpd/Build/Products/Debug-iphonesimulator/OSCache/OSCache.framework"; sourceTree = "<group>"; };
+		DCF2BE0D1E36B0EB00E60E41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCF2BE0F1E36B0F400E60E41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCF2BE111E36B10A00E60E41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCF2BE131E36B1C700E60E41 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		DCF2BF571E36B4A300E60E41 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		DCF2BF591E36B4A300E60E41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCF2BF5A1E36B4A300E60E41 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCF2BF5B1E36B4A300E60E41 /* MGCAlignedGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCAlignedGeometry.h; sourceTree = "<group>"; };
+		DCF2BF5C1E36B4A300E60E41 /* MGCAlignedGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCAlignedGeometry.m; sourceTree = "<group>"; };
+		DCF2BF5D1E36B4A300E60E41 /* MGCAllDayEventsViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCAllDayEventsViewLayout.h; sourceTree = "<group>"; };
+		DCF2BF5E1E36B4A300E60E41 /* MGCAllDayEventsViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCAllDayEventsViewLayout.m; sourceTree = "<group>"; };
+		DCF2BF5F1E36B4A300E60E41 /* MGCCalendarHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCCalendarHeaderCell.h; sourceTree = "<group>"; };
+		DCF2BF601E36B4A300E60E41 /* MGCCalendarHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCCalendarHeaderCell.m; sourceTree = "<group>"; };
+		DCF2BF611E36B4A300E60E41 /* MGCCalendarHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGCCalendarHeaderCell.xib; sourceTree = "<group>"; };
+		DCF2BF621E36B4A300E60E41 /* MGCCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCCalendarHeaderView.h; sourceTree = "<group>"; };
+		DCF2BF631E36B4A300E60E41 /* MGCCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCCalendarHeaderView.m; sourceTree = "<group>"; };
+		DCF2BF641E36B4A300E60E41 /* MGCDateRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCDateRange.h; sourceTree = "<group>"; };
+		DCF2BF651E36B4A300E60E41 /* MGCDateRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCDateRange.m; sourceTree = "<group>"; };
+		DCF2BF661E36B4A300E60E41 /* MGCDayColumnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCDayColumnCell.h; sourceTree = "<group>"; };
+		DCF2BF671E36B4A300E60E41 /* MGCDayColumnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCDayColumnCell.m; sourceTree = "<group>"; };
+		DCF2BF681E36B4A300E60E41 /* MGCDayPlannerEKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCDayPlannerEKViewController.h; sourceTree = "<group>"; };
+		DCF2BF691E36B4A300E60E41 /* MGCDayPlannerEKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCDayPlannerEKViewController.m; sourceTree = "<group>"; };
+		DCF2BF6A1E36B4A300E60E41 /* MGCDayPlannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCDayPlannerView.h; sourceTree = "<group>"; };
+		DCF2BF6B1E36B4A300E60E41 /* MGCDayPlannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCDayPlannerView.m; sourceTree = "<group>"; };
+		DCF2BF6C1E36B4A300E60E41 /* MGCDayPlannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCDayPlannerViewController.h; sourceTree = "<group>"; };
+		DCF2BF6D1E36B4A300E60E41 /* MGCDayPlannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCDayPlannerViewController.m; sourceTree = "<group>"; };
+		DCF2BF6E1E36B4A300E60E41 /* MGCEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCEventCell.h; sourceTree = "<group>"; };
+		DCF2BF6F1E36B4A300E60E41 /* MGCEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCEventCell.m; sourceTree = "<group>"; };
+		DCF2BF701E36B4A300E60E41 /* MGCEventCellLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCEventCellLayoutAttributes.h; sourceTree = "<group>"; };
+		DCF2BF711E36B4A300E60E41 /* MGCEventCellLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCEventCellLayoutAttributes.m; sourceTree = "<group>"; };
+		DCF2BF721E36B4A300E60E41 /* MGCEventKitSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCEventKitSupport.h; sourceTree = "<group>"; };
+		DCF2BF731E36B4A300E60E41 /* MGCEventKitSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCEventKitSupport.m; sourceTree = "<group>"; };
+		DCF2BF741E36B4A300E60E41 /* MGCEventsRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCEventsRowView.h; sourceTree = "<group>"; };
+		DCF2BF751E36B4A300E60E41 /* MGCEventsRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCEventsRowView.m; sourceTree = "<group>"; };
+		DCF2BF761E36B4A300E60E41 /* MGCEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCEventView.h; sourceTree = "<group>"; };
+		DCF2BF771E36B4A300E60E41 /* MGCEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCEventView.m; sourceTree = "<group>"; };
+		DCF2BF781E36B4A300E60E41 /* MGCInteractiveEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCInteractiveEventView.h; sourceTree = "<group>"; };
+		DCF2BF791E36B4A300E60E41 /* MGCInteractiveEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCInteractiveEventView.m; sourceTree = "<group>"; };
+		DCF2BF7A1E36B4A300E60E41 /* MGCMonthMiniCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthMiniCalendarView.h; sourceTree = "<group>"; };
+		DCF2BF7B1E36B4A300E60E41 /* MGCMonthMiniCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthMiniCalendarView.m; sourceTree = "<group>"; };
+		DCF2BF7C1E36B4A300E60E41 /* MGCMonthPlannerBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerBackgroundView.h; sourceTree = "<group>"; };
+		DCF2BF7D1E36B4A300E60E41 /* MGCMonthPlannerBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerBackgroundView.m; sourceTree = "<group>"; };
+		DCF2BF7E1E36B4A300E60E41 /* MGCMonthPlannerEKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerEKViewController.h; sourceTree = "<group>"; };
+		DCF2BF7F1E36B4A300E60E41 /* MGCMonthPlannerEKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerEKViewController.m; sourceTree = "<group>"; };
+		DCF2BF801E36B4A300E60E41 /* MGCMonthPlannerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerHeaderView.h; sourceTree = "<group>"; };
+		DCF2BF811E36B4A300E60E41 /* MGCMonthPlannerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerHeaderView.m; sourceTree = "<group>"; };
+		DCF2BF821E36B4A300E60E41 /* MGCMonthPlannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerView.h; sourceTree = "<group>"; };
+		DCF2BF831E36B4A300E60E41 /* MGCMonthPlannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerView.m; sourceTree = "<group>"; };
+		DCF2BF841E36B4A300E60E41 /* MGCMonthPlannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerViewController.h; sourceTree = "<group>"; };
+		DCF2BF851E36B4A300E60E41 /* MGCMonthPlannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerViewController.m; sourceTree = "<group>"; };
+		DCF2BF861E36B4A300E60E41 /* MGCMonthPlannerViewDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerViewDayCell.h; sourceTree = "<group>"; };
+		DCF2BF871E36B4A300E60E41 /* MGCMonthPlannerViewDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerViewDayCell.m; sourceTree = "<group>"; };
+		DCF2BF881E36B4A300E60E41 /* MGCMonthPlannerViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerViewLayout.h; sourceTree = "<group>"; };
+		DCF2BF891E36B4A300E60E41 /* MGCMonthPlannerViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerViewLayout.m; sourceTree = "<group>"; };
+		DCF2BF8A1E36B4A300E60E41 /* MGCMonthPlannerWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCMonthPlannerWeekView.h; sourceTree = "<group>"; };
+		DCF2BF8B1E36B4A300E60E41 /* MGCMonthPlannerWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCMonthPlannerWeekView.m; sourceTree = "<group>"; };
+		DCF2BF8C1E36B4A300E60E41 /* MGCReusableObjectQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCReusableObjectQueue.h; sourceTree = "<group>"; };
+		DCF2BF8D1E36B4A300E60E41 /* MGCReusableObjectQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCReusableObjectQueue.m; sourceTree = "<group>"; };
+		DCF2BF8E1E36B4A300E60E41 /* MGCStandardEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCStandardEventView.h; sourceTree = "<group>"; };
+		DCF2BF8F1E36B4A300E60E41 /* MGCStandardEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCStandardEventView.m; sourceTree = "<group>"; };
+		DCF2BF901E36B4A300E60E41 /* MGCTimedEventsViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCTimedEventsViewLayout.h; sourceTree = "<group>"; };
+		DCF2BF911E36B4A300E60E41 /* MGCTimedEventsViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCTimedEventsViewLayout.m; sourceTree = "<group>"; };
+		DCF2BF921E36B4A300E60E41 /* MGCTimeRowsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCTimeRowsView.h; sourceTree = "<group>"; };
+		DCF2BF931E36B4A300E60E41 /* MGCTimeRowsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCTimeRowsView.m; sourceTree = "<group>"; };
+		DCF2BF941E36B4A300E60E41 /* MGCYearCalendarMonthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCYearCalendarMonthCell.h; sourceTree = "<group>"; };
+		DCF2BF951E36B4A300E60E41 /* MGCYearCalendarMonthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCYearCalendarMonthCell.m; sourceTree = "<group>"; };
+		DCF2BF961E36B4A300E60E41 /* MGCYearCalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCYearCalendarMonthHeaderView.h; sourceTree = "<group>"; };
+		DCF2BF971E36B4A300E60E41 /* MGCYearCalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCYearCalendarMonthHeaderView.m; sourceTree = "<group>"; };
+		DCF2BF981E36B4A300E60E41 /* MGCYearCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCYearCalendarView.h; sourceTree = "<group>"; };
+		DCF2BF991E36B4A300E60E41 /* MGCYearCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCYearCalendarView.m; sourceTree = "<group>"; };
+		DCF2BF9A1E36B4A300E60E41 /* NSAttributedString+MGCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MGCAdditions.h"; sourceTree = "<group>"; };
+		DCF2BF9B1E36B4A300E60E41 /* NSAttributedString+MGCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MGCAdditions.m"; sourceTree = "<group>"; };
+		DCF2BF9C1E36B4A300E60E41 /* NSCalendar+MGCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+MGCAdditions.h"; sourceTree = "<group>"; };
+		DCF2BF9D1E36B4A300E60E41 /* NSCalendar+MGCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+MGCAdditions.m"; sourceTree = "<group>"; };
+		DCF2C0061E36B67200E60E41 /* App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Prefix.pch"; sourceTree = "<group>"; };
+		DCF2C0411E37BB1400E60E41 /* WeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekViewController.h; sourceTree = "<group>"; };
+		DCF2C0421E37BB1400E60E41 /* WeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekViewController.m; sourceTree = "<group>"; };
+		DCFD07CB1E3A589800DA5CEA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DCFD07F41E3A8B8200DA5CEA /* BookAvailabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookAvailabilityViewController.h; sourceTree = "<group>"; };
+		DCFD07F51E3A8B8200DA5CEA /* BookAvailabilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookAvailabilityViewController.m; sourceTree = "<group>"; };
+		DCFD07F61E3A8B8200DA5CEA /* BookAvailabilityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookAvailabilityViewController.xib; sourceTree = "<group>"; };
+		DCFD07FC1E3A95FA00DA5CEA /* FitSpotAvailabilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitSpotAvailabilityViewController.m; sourceTree = "<group>"; };
+		DCFD07FD1E3A95FA00DA5CEA /* FitSpotAvailabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitSpotAvailabilityViewController.h; sourceTree = "<group>"; };
+		EE2C08061E89BE330046F6D0 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		EE2C08071E89BE330046F6D0 /* main.jsbundle.meta */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.jsbundle.meta; sourceTree = "<group>"; };
+		EE35925EAF6C4228897ED98D /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		F1F69B81BEEF494890C1BBD6 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		F29634D95D68466DB5C182E1 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFD07CC1E3A589800DA5CEA /* CoreLocation.framework in Frameworks */,
+				DCF2C0071E36B73100E60E41 /* CoreGraphics.framework in Frameworks */,
+				DCF2BE141E36B1C700E60E41 /* EventKitUI.framework in Frameworks */,
+				DCF2BE121E36B10A00E60E41 /* Foundation.framework in Frameworks */,
+				DCF2BE101E36B0F400E60E41 /* UIKit.framework in Frameworks */,
+				DC5986551E3670AA004FE1EA /* EventKit.framework in Frameworks */,
+				227BE2275D7E0BC3246711B3 /* libPods-FitSpot.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DCF2BF561E36B4A300E60E41 /* CalendarLib */,
+				DCE5C6EB1DDA40C4005A4FB4 /* Daytona W01 Bold.ttf */,
+				DCE5C6EC1DDA40C4005A4FB4 /* Daytona W01 Light.ttf */,
+				DCA6BC071DE4F51C005782CB /* Daytona W01 Semibold.ttf */,
+				DCA6BBF21DE4A487005782CB /* Daytona W01 Fat.ttf */,
+				DCA6BC051DE4A8F8005782CB /* Daytona W01 Regular.ttf */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				DC7450FE1E27EB0C002BCCBF /* BrainTreePayManager.h */,
+				DC7450FF1E27EB0C002BCCBF /* BrainTreePayManager.m */,
+				DC5986561E368A9A004FE1EA /* TrainerCalendarManager.h */,
+				DC5986571E368A9A004FE1EA /* TrainerCalendarManager.m */,
+				DC59862D1E365369004FE1EA /* TrainerAvailabilityManager.h */,
+				DC59862E1E365369004FE1EA /* TrainerAvailabilityManager.m */,
+				DC59864C1E366B07004FE1EA /* MonthViewController.h */,
+				DC59864D1E366B07004FE1EA /* MonthViewConroller.m */,
+				DC59864F1E366B1E004FE1EA /* DayViewController.h */,
+				DC5986501E366B1E004FE1EA /* DayViewController.m */,
+				DCF2C0061E36B67200E60E41 /* App-Prefix.pch */,
+				DCF2C0411E37BB1400E60E41 /* WeekViewController.h */,
+				DCF2C0421E37BB1400E60E41 /* WeekViewController.m */,
+				DCFD07F41E3A8B8200DA5CEA /* BookAvailabilityViewController.h */,
+				DCFD07F51E3A8B8200DA5CEA /* BookAvailabilityViewController.m */,
+				DCFD07F61E3A8B8200DA5CEA /* BookAvailabilityViewController.xib */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		5AF09A667F9748B3B44DF94D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BD41F438E1A40A8A09EEF87 /* Entypo.ttf */,
+				BC507EC946BF4606909E17C0 /* EvilIcons.ttf */,
+				4B0A221A9A7A4B85A6996852 /* FontAwesome.ttf */,
+				EE35925EAF6C4228897ED98D /* Foundation.ttf */,
+				7C9AA7DCCC7A420CB69B595B /* Ionicons.ttf */,
+				9840999417B44B8EAE8A44A8 /* MaterialCommunityIcons.ttf */,
+				F29634D95D68466DB5C182E1 /* MaterialIcons.ttf */,
+				AC24F749A3FB4B7599CCF1D5 /* Octicons.ttf */,
+				548F994994984CEA8500CE3A /* SimpleLineIcons.ttf */,
+				F1F69B81BEEF494890C1BBD6 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		60870DB8B1DFE1A8F9E331EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA52C170BA3824A9C45A041F /* Pods-App.debug.xcconfig */,
+				1939F4592CB52F68270F3090 /* Pods-App.release.xcconfig */,
+				82BBEBD1B06CEFC0BEC061A3 /* Pods-FitSpot.debug.xcconfig */,
+				035D372FCCA3CBFD41E0A452 /* Pods-FitSpot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		694C73BFD016D053FBF49FF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD07CB1E3A589800DA5CEA /* CoreLocation.framework */,
+				DCF2BE131E36B1C700E60E41 /* EventKitUI.framework */,
+				DCF2BE111E36B10A00E60E41 /* Foundation.framework */,
+				DCF2BE0F1E36B0F400E60E41 /* UIKit.framework */,
+				DCF2BE0D1E36B0EB00E60E41 /* CoreGraphics.framework */,
+				DCF2BD771E36AF4B00E60E41 /* OrderedDictionary.framework */,
+				DCF2BD781E36AF4B00E60E41 /* OSCache.framework */,
+				DC5986541E3670AA004FE1EA /* EventKit.framework */,
+				DC5986521E367038004FE1EA /* CalendarLib.framework */,
+				15B3BA128517FA2BF810BAAA /* libPods-FitSpot.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				EE2C08061E89BE330046F6D0 /* main.jsbundle */,
+				EE2C08071E89BE330046F6D0 /* main.jsbundle.meta */,
+				DC0D544C1E6CB8D4004CC185 /* FitSpot.entitlements */,
+				D82BD8231E76691700E166D6 /* RCTVideo.h */,
+				D82BD8241E76691700E166D6 /* RCTVideo.m */,
+				D82BD8251E76691700E166D6 /* RCTVideoPlayerViewControllerDelegate.h */,
+				D82BD8261E76691700E166D6 /* RCTVideoPlayerViewController.h */,
+				D82BD8271E76691700E166D6 /* RCTVideoPlayerViewController.m */,
+				D82BD8281E76691700E166D6 /* RCTVideoManager.h */,
+				D82BD8291E76691700E166D6 /* RCTVideoManager.m */,
+				D82BD82A1E76691700E166D6 /* UIView+FindUIViewController.h */,
+				D82BD82B1E76691700E166D6 /* UIView+FindUIViewController.m */,
+				13B07FAE1A68108700A75B9A /* App */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				60870DB8B1DFE1A8F9E331EE /* Pods */,
+				694C73BFD016D053FBF49FF1 /* Frameworks */,
+				5AF09A667F9748B3B44DF94D /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* FitSpot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF2BF561E36B4A300E60E41 /* CalendarLib */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD07FC1E3A95FA00DA5CEA /* FitSpotAvailabilityViewController.m */,
+				DCFD07FD1E3A95FA00DA5CEA /* FitSpotAvailabilityViewController.h */,
+				DCF2BF571E36B4A300E60E41 /* Constant.h */,
+				DCF2BF581E36B4A300E60E41 /* Localizable.strings */,
+				DCF2BF5B1E36B4A300E60E41 /* MGCAlignedGeometry.h */,
+				DCF2BF5C1E36B4A300E60E41 /* MGCAlignedGeometry.m */,
+				DCF2BF5D1E36B4A300E60E41 /* MGCAllDayEventsViewLayout.h */,
+				DCF2BF5E1E36B4A300E60E41 /* MGCAllDayEventsViewLayout.m */,
+				DCF2BF5F1E36B4A300E60E41 /* MGCCalendarHeaderCell.h */,
+				DCF2BF601E36B4A300E60E41 /* MGCCalendarHeaderCell.m */,
+				DCF2BF611E36B4A300E60E41 /* MGCCalendarHeaderCell.xib */,
+				DCF2BF621E36B4A300E60E41 /* MGCCalendarHeaderView.h */,
+				DCF2BF631E36B4A300E60E41 /* MGCCalendarHeaderView.m */,
+				DCF2BF641E36B4A300E60E41 /* MGCDateRange.h */,
+				DCF2BF651E36B4A300E60E41 /* MGCDateRange.m */,
+				DCF2BF661E36B4A300E60E41 /* MGCDayColumnCell.h */,
+				DCF2BF671E36B4A300E60E41 /* MGCDayColumnCell.m */,
+				DCF2BF681E36B4A300E60E41 /* MGCDayPlannerEKViewController.h */,
+				DCF2BF691E36B4A300E60E41 /* MGCDayPlannerEKViewController.m */,
+				DCF2BF6A1E36B4A300E60E41 /* MGCDayPlannerView.h */,
+				DCF2BF6B1E36B4A300E60E41 /* MGCDayPlannerView.m */,
+				DCF2BF6C1E36B4A300E60E41 /* MGCDayPlannerViewController.h */,
+				DCF2BF6D1E36B4A300E60E41 /* MGCDayPlannerViewController.m */,
+				DCF2BF6E1E36B4A300E60E41 /* MGCEventCell.h */,
+				DCF2BF6F1E36B4A300E60E41 /* MGCEventCell.m */,
+				DCF2BF701E36B4A300E60E41 /* MGCEventCellLayoutAttributes.h */,
+				DCF2BF711E36B4A300E60E41 /* MGCEventCellLayoutAttributes.m */,
+				DCF2BF721E36B4A300E60E41 /* MGCEventKitSupport.h */,
+				DCF2BF731E36B4A300E60E41 /* MGCEventKitSupport.m */,
+				DCF2BF741E36B4A300E60E41 /* MGCEventsRowView.h */,
+				DCF2BF751E36B4A300E60E41 /* MGCEventsRowView.m */,
+				DCF2BF761E36B4A300E60E41 /* MGCEventView.h */,
+				DCF2BF771E36B4A300E60E41 /* MGCEventView.m */,
+				DCF2BF781E36B4A300E60E41 /* MGCInteractiveEventView.h */,
+				DCF2BF791E36B4A300E60E41 /* MGCInteractiveEventView.m */,
+				DCF2BF7A1E36B4A300E60E41 /* MGCMonthMiniCalendarView.h */,
+				DCF2BF7B1E36B4A300E60E41 /* MGCMonthMiniCalendarView.m */,
+				DCF2BF7C1E36B4A300E60E41 /* MGCMonthPlannerBackgroundView.h */,
+				DCF2BF7D1E36B4A300E60E41 /* MGCMonthPlannerBackgroundView.m */,
+				DCF2BF7E1E36B4A300E60E41 /* MGCMonthPlannerEKViewController.h */,
+				DCF2BF7F1E36B4A300E60E41 /* MGCMonthPlannerEKViewController.m */,
+				DCF2BF801E36B4A300E60E41 /* MGCMonthPlannerHeaderView.h */,
+				DCF2BF811E36B4A300E60E41 /* MGCMonthPlannerHeaderView.m */,
+				DCF2BF821E36B4A300E60E41 /* MGCMonthPlannerView.h */,
+				DCF2BF831E36B4A300E60E41 /* MGCMonthPlannerView.m */,
+				DCF2BF841E36B4A300E60E41 /* MGCMonthPlannerViewController.h */,
+				DCF2BF851E36B4A300E60E41 /* MGCMonthPlannerViewController.m */,
+				DCF2BF861E36B4A300E60E41 /* MGCMonthPlannerViewDayCell.h */,
+				DCF2BF871E36B4A300E60E41 /* MGCMonthPlannerViewDayCell.m */,
+				DCF2BF881E36B4A300E60E41 /* MGCMonthPlannerViewLayout.h */,
+				DCF2BF891E36B4A300E60E41 /* MGCMonthPlannerViewLayout.m */,
+				DCF2BF8A1E36B4A300E60E41 /* MGCMonthPlannerWeekView.h */,
+				DCF2BF8B1E36B4A300E60E41 /* MGCMonthPlannerWeekView.m */,
+				DCF2BF8C1E36B4A300E60E41 /* MGCReusableObjectQueue.h */,
+				DCF2BF8D1E36B4A300E60E41 /* MGCReusableObjectQueue.m */,
+				DCF2BF8E1E36B4A300E60E41 /* MGCStandardEventView.h */,
+				DCF2BF8F1E36B4A300E60E41 /* MGCStandardEventView.m */,
+				DCF2BF901E36B4A300E60E41 /* MGCTimedEventsViewLayout.h */,
+				DCF2BF911E36B4A300E60E41 /* MGCTimedEventsViewLayout.m */,
+				DCF2BF921E36B4A300E60E41 /* MGCTimeRowsView.h */,
+				DCF2BF931E36B4A300E60E41 /* MGCTimeRowsView.m */,
+				DCF2BF941E36B4A300E60E41 /* MGCYearCalendarMonthCell.h */,
+				DCF2BF951E36B4A300E60E41 /* MGCYearCalendarMonthCell.m */,
+				DCF2BF961E36B4A300E60E41 /* MGCYearCalendarMonthHeaderView.h */,
+				DCF2BF971E36B4A300E60E41 /* MGCYearCalendarMonthHeaderView.m */,
+				DCF2BF981E36B4A300E60E41 /* MGCYearCalendarView.h */,
+				DCF2BF991E36B4A300E60E41 /* MGCYearCalendarView.m */,
+				DCF2BF9A1E36B4A300E60E41 /* NSAttributedString+MGCAdditions.h */,
+				DCF2BF9B1E36B4A300E60E41 /* NSAttributedString+MGCAdditions.m */,
+				DCF2BF9C1E36B4A300E60E41 /* NSCalendar+MGCAdditions.h */,
+				DCF2BF9D1E36B4A300E60E41 /* NSCalendar+MGCAdditions.m */,
+			);
+			path = CalendarLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* FitSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FitSpot" */;
+			buildPhases = (
+				275DBA14FEC40026705C81DE /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E73EC9301F0AD75A11A5BFAA /* [CP] Embed Pods Frameworks */,
+				6E703F7D3446E9CDDEA8996C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitSpot;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* FitSpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 820;
+				ORGANIZATIONNAME = Fitspot;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Fitspot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* FitSpot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE5C6FE1DDA40D2005A4FB4 /* Daytona W01 Bold.ttf in Resources */,
+				EE2C08091E89BE330046F6D0 /* main.jsbundle.meta in Resources */,
+				DCA6BC041DE4A49F005782CB /* Daytona W01 Fat.ttf in Resources */,
+				DCE5C6FF1DDA40D2005A4FB4 /* Daytona W01 Light.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				DCF2BFA21E36B4A300E60E41 /* MGCCalendarHeaderCell.xib in Resources */,
+				DCF2BF9E1E36B4A300E60E41 /* Localizable.strings in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				DCFD07F81E3A8B8200DA5CEA /* BookAvailabilityViewController.xib in Resources */,
+				DCA6BC061DE4A8FC005782CB /* Daytona W01 Regular.ttf in Resources */,
+				DCA6BC081DE4F51C005782CB /* Daytona W01 Semibold.ttf in Resources */,
+				1CB3F596F639411298D196D1 /* Entypo.ttf in Resources */,
+				95DAC0C88A9C47729D1B84CE /* EvilIcons.ttf in Resources */,
+				EE2C08081E89BE330046F6D0 /* main.jsbundle in Resources */,
+				1277363DDCA442D18202234D /* FontAwesome.ttf in Resources */,
+				AF057679150642C791FEFFF7 /* Foundation.ttf in Resources */,
+				F9D89D92F27845739464DCE8 /* Ionicons.ttf in Resources */,
+				5E1F0503D02945EEACFE14DB /* MaterialCommunityIcons.ttf in Resources */,
+				30749D7CBA424E1688AE6B79 /* MaterialIcons.ttf in Resources */,
+				5931D89BF46E4749AEA0D2A1 /* Octicons.ttf in Resources */,
+				E4AC1EF4E8FB42E38085315C /* SimpleLineIcons.ttf in Resources */,
+				AFADCAF5686D4D0D8B3155E8 /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		275DBA14FEC40026705C81DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E703F7D3446E9CDDEA8996C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitSpot/Pods-FitSpot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E73EC9301F0AD75A11A5BFAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitSpot/Pods-FitSpot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7451001E27EB0C002BCCBF /* BrainTreePayManager.m in Sources */,
+				D82BD82F1E76691700E166D6 /* UIView+FindUIViewController.m in Sources */,
+				D82BD82E1E76691700E166D6 /* RCTVideoManager.m in Sources */,
+				D82BD82D1E76691700E166D6 /* RCTVideoPlayerViewController.m in Sources */,
+				D82BD82C1E76691700E166D6 /* RCTVideo.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = App;
+			sourceTree = "<group>";
+		};
+		DCF2BF581E36B4A300E60E41 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF2BF591E36B4A300E60E41 /* en */,
+				DCF2BF5A1E36B4A300E60E41 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BBEBD1B06CEFC0BEC061A3 /* Pods-FitSpot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = FitSpot.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FitSpot\"",
+					"\"$(SRCROOT)/FitSpot\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FitSpot.FitSpotDev;
+				PRODUCT_NAME = FitSpot;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035D372FCCA3CBFD41E0A452 /* Pods-FitSpot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = FitSpot.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FitSpot\"",
+					"\"$(SRCROOT)/FitSpot\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FitSpot.FitSpotDev;
+				PRODUCT_NAME = FitSpot;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-blur/ios",
+					"$(SRCROOT)/../node_modules/react-native-maps/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
+					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-maps/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-blur/ios",
+					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-maps/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-video/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-blur/ios",
+					"$(SRCROOT)/../node_modules/react-native-maps/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
+					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-maps/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-blur/ios",
+					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-maps/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-video/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FitSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Fitspot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

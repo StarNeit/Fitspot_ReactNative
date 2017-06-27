@@ -1,0 +1,1965 @@
+/*=============================================================
+                         Define Fonts
+==============================================================*/
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-ExtraLight.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-ExtraLight.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-ExtraLight.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-ExtraLight.otf') format('opentype'),
+         url('../fonts/SourceSansPro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-ExtraLightIt.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-ExtraLightIt.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-ExtraLightIt.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-ExtraLightIt.otf') format('opentype'),
+         url('../fonts/SourceSansPro-ExtraLightIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-Light.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Light.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Light.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-Light.otf') format('opentype'),
+         url('../fonts/SourceSansPro-Light.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-LightIt.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-LightIt.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-LightIt.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-LightIt.otf') format('opentype'),
+         url('../fonts/SourceSansPro-LightIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-Regular.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Regular.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Regular.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-Regular.otf') format('opentype'),
+         url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-It.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-It.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-It.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-It.otf') format('opentype'),
+         url('../fonts/SourceSansPro-It.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-Semibold.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Semibold.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Semibold.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-Semibold.otf') format('opentype'),
+         url('../fonts/SourceSansPro-Semibold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-SemiboldIt.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-SemiboldIt.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-SemiboldIt.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-SemiboldIt.otf') format('opentype'),
+         url('../fonts/SourceSansPro-SemiboldIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-Bold.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Bold.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Bold.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-Bold.otf') format('opentype'),
+         url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-BoldIt.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-BoldIt.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-BoldIt.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-BoldIt.otf') format('opentype'),
+         url('../fonts/SourceSansPro-BoldIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-Black.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Black.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Black.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-Black.otf') format('opentype'),
+         url('../fonts/SourceSansPro-Black.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-BlackIt.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-BlackIt.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-BlackIt.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-BlackIt.otf') format('opentype'),
+         url('../fonts/SourceSansPro-BlackIt.ttf') format('truetype');
+}
+
+
+
+/*=============================================================
+                      Gernal - CSS Styles
+==============================================================*/
+
+
+body {
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #777;
+    background-color: #f7f7f7;
+    font-weight: 500;
+}
+a {
+    color: #5fb13d;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #5fb13d;
+    text-decoration: none;
+}
+header {
+    background-color: #4ca056;
+    padding: 30px 0px;
+    color: #fff;
+    background: -webkit-linear-gradient(left, #368e73 , #4ca056);
+    background: -o-linear-gradient(right, #368e73, #4ca056);
+    background: -moz-linear-gradient(right, #368e73, #4ca056);
+    background: linear-gradient(to right, #368e73 , #4ca056);
+}
+header span.logo-devider {
+    font-weight: 100;
+    border-right: 1px solid #444;
+    min-height: 40px;
+    padding: 10px 7px;
+    margin-right: 14px;
+}
+header span.secondry-logo-text {
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 30px;
+    vertical-align: middle;
+}
+header img.user-avator {
+    border-radius: 50%;
+    padding: 0;
+}
+header .btn-group .btn-primary {
+    color: #fff !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+header .btn-group .btn-primary:active:focus, header .btn-group .btn-primary:active:hover, header .btn-group.open>.dropdown-toggle.btn-primary:focus, header .btn-group.open>.dropdown-toggle.btn-primary:hover, header .btn-group .btn-primary.active, header .btn-group .btn-primary:active, header .btn-group open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+header .navbar-default {
+    background-color: transparent;
+    border: 0px solid;
+    margin-bottom: 0;
+    max-height: 40px;
+    min-height: 40px;
+}
+header .navbar-default .navbar-toggle {
+    border: 0px solid;
+    margin: 0;
+}
+header .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+    width: 25px;
+    margin-bottom: 5px;
+}
+header .navbar-default .navbar-toggle:focus, header .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+header .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    background-color: #000;
+}
+header .navbar-default .navbar-nav>li>a:focus, header .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #5fb13d;
+	outline: 0px auto -webkit-focus-ring-color;
+}
+header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav>.active>a:focus, header .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #5fb13d;
+}
+header .navbar-default .navbar-collapse, header .navbar-default .navbar-form {
+    border-top: 0px solid;
+}
+header .navbar-default .navbar-collapse {
+    margin: 0;
+    padding: 0;
+}
+header .navbar-nav {
+    margin: 0;
+}
+header .nav>li {
+    z-index: 999999;
+    border-bottom: 1px solid #333;
+}
+header .dropdown-menu .divider {
+    display: none;
+}
+.btn {
+    padding: 9px 12px;
+}
+header .btn {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 11px 12px;
+}
+header .btn-link {
+    color: #fff;
+}
+header .btn-link:focus, header .btn-link:hover, header .btn-link.active {
+    color: #333c4d;
+    text-decoration: none;
+    background-color: transparent;
+}
+header .btn-user-profile.btn {
+    padding: 3px 12px 0;
+}
+header span.new-message-notification {
+    background: #e67650;
+    padding: 0px 6px 2px 6px;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: -3px;
+}
+header span.new-user-notification {
+    background: #e67650;
+    padding: 0px 6px 2px 6px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+}
+header .dropdown-menu {
+    min-width: 300px;
+    background: #242a36;
+    border-radius: 0px;
+	z-index: 9999999;
+}
+header .dropdown-menu>li {
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 20px;
+}
+header .dropdown-menu>li>a {
+    display: inline-block;
+    padding: 3px 0px;
+    clear: both;
+    font-weight: 700;
+    line-height: 1.42857143;
+    color: #fff;
+    white-space: nowrap;
+    border-bottom: 2px solid #fff;
+}
+header .dropdown-menu.booking-menu {
+    min-width: 300px;
+    background: #242a36;
+    border-radius: 0px;
+	z-index: 9999999;
+}
+header .dropdown-menu.booking-menu>li {
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 20px;
+}
+header .dropdown-menu.booking-menu>li>a {
+    display: inline-block;
+    padding: 3px 0px;
+    clear: both;
+    font-weight: 700;
+    line-height: 1.42857143;
+    color: #fff;
+    white-space: nowrap;
+    border-bottom: 2px solid #fff;
+}
+header .dropdown-menu.messages-menu, header .dropdown-menu.profile-menu {
+    min-width: 200px;
+    background: #fff;
+    border-radius: 0px;
+    z-index: 9999999;
+    padding: 0px 5px;
+}
+header .dropdown-menu.messages-menu>li, header .dropdown-menu.profile-menu>li {
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #e6e6e6;
+}
+header .dropdown-menu.messages-menu>li:nth-last-of-type(1), header .dropdown-menu.profile-menu>li:nth-last-of-type(1) {
+    border-bottom: 0px solid #e6e6e6;
+}
+header .dropdown-menu.messages-menu>li>a, header .dropdown-menu.profile-menu>li>a {
+    display: inline-block;
+    padding: 3px 0px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #adafb3;
+    white-space: nowrap;
+    border-bottom: 0px solid #fff;
+}
+.dropdown-menu.messages-menu>.active>a, .dropdown-menu.messages-menu>.active>a:focus, .dropdown-menu.messages-menu>.active>a:hover, .dropdown-menu.profile-menu>.active>a, .dropdown-menu.profile-menu>.active>a:focus, .dropdown-menu.profile-menu>.active>a:hover {
+    color: #5fb13d;
+    text-decoration: none;
+    background-color: transparent;
+    outline: 0;
+}
+header .dropdown-menu>li>a:focus, header .dropdown-menu>li>a:hover {
+    background-color: transparent;
+    color: #5fb13d;
+}
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.btn-default, .btn-default:hover, .btn-default.focus, .btn-default:focus, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #fff;
+    background-color: #5fb13d;
+    border-color: #5fb13d;
+}
+.btn-info {
+    color: #5fb13d;
+    background-color: transparent;
+    border-color: #5fb13d;
+}
+.btn-info:hover, .btn-info.focus, .btn-info:focus {
+    color: #fff;
+    background-color: #5fb13d;
+    border-color: #5fb13d;
+}
+.btn-danger {
+    color: #eb6464;
+    background-color: transparent;
+    border-color: #eb6464;
+}
+.btn-danger:hover, .btn-danger.focus, .btn-danger:focus {
+    color: #fff;
+    background-color: #eb6464;
+    border-color: #eb6464;
+}
+.btn-link {
+    font-weight: 400;
+    color: #5fb13d;
+    border-radius: 0;
+}
+.btn-link:focus, .btn-link:hover {
+    color: #5fb13d;
+    text-decoration: none;
+    background-color: transparent;
+}
+.modal {
+    z-index: 999999;
+}
+.modal-open .container-fluid, .modal-open  .container {
+    -webkit-filter: blur(5px) grayscale(90%);
+}
+body.modal-open .modal {
+    display: flex !important;
+    height: 100%;
+}
+body.modal-open .modal .modal-dialog {
+    margin: auto;
+}
+#referModal .modal-body {
+    padding: 30px;
+}
+#referModal h3.refer-code {
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+#referModal .fa {
+    background: #333;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    padding-top: 9px;
+    margin: 0 2px;
+}
+#referModal .fa-envelope {
+    background: #4a90e2;
+}
+#referModal .fa-comment {
+    background: #5fb13d;
+}
+#referModal .fa-facebook {
+    background: #3b5998;
+}
+#referModal .fa-twitter {
+    background: #55acee;
+}
+.main {
+    padding: 60px 0px;
+}
+.main .btn {
+    padding: 17px 12px;
+    border-radius: 0px;
+    font-weight: 600;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #333c4d;
+    font-weight: 700;
+}
+.form-group {
+    margin-bottom: 35px;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0;
+    border-right: 0px solid #ccc;
+    border: 1px solid #ccc;
+}
+.input-group .form-control {
+    border-left: 0px;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+}
+.input-group .form-control:focus {
+    border-color: #ccc;
+}
+.input-group-addon .fa-search {
+    color: #adadae;
+}
+.form-control {
+    height: 60px;
+    padding: 6px 18px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+	border-radius: 0px;
+}
+.form-control:focus {
+    border-color: #5fb13d;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0px 0px #5fb13d, 0 0 0px #5fb13d;
+    box-shadow: inset 0 0px 0px #5fb13d, 0 0 0px #5fb13d;
+}
+input[type=date].form-control, input[type=time].form-control, input[type=datetime-local].form-control, input[type=month].form-control, input[type=week].form-control {
+    padding: 17px 18px;
+}
+label {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+	color: #333;
+}
+label small {
+    font-size: 100%;
+    font-weight: 500;
+	color: #777;
+}
+.devider-text {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+hr.section-devider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+hr.row-devider {
+    border-top: 1px solid #444;
+}
+.spaced {
+	letter-spacing: 1px;
+}
+.fw500 {
+	font-weight: 500 !important;
+}
+.marginBottom20 {
+    margin-bottom: 20px !important;
+}
+.marginBottom50 {
+    margin-bottom: 50px !important;
+}
+.paddingTop50 {
+    padding-top: 50px !important;
+}
+
+
+
+/*=============================================================
+                    01-02 Login / Register - CSS Styles
+==============================================================*/
+
+
+.login-page header {
+    background-color: #fff;
+    padding: 20px 0px;
+}
+.login-page .login-area {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+    margin-top: 40px;
+}
+.btn-fb:hover {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+.login-page .register-area .btn-fb {
+    margin-bottom: 35px;
+}
+.kill-left-padding  {
+    padding-left: 0px;
+}
+.kill-right-padding  {
+    padding-right: 0px;
+}
+label span {
+    float: right;
+}
+label span a {
+    color: #5fb13d;
+	text-decoration: none;
+    font-weight: 400;
+}
+label span a:hover {
+    color: #5fb13d;
+	text-decoration: none;
+}
+.login-page .register-area label.radio-inline {
+    width: 33.33333%;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 0;
+    border: 1px solid #ccc;
+    margin-bottom: 35px;
+    color: #ccc;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.login-page .register-area label.radio-inline.active {
+    border: 1px solid #5fb13d;
+    color: #5fb13d;
+}
+.login-page .register-area label.radio-inline input[type=radio] {
+	display: none;
+}
+.login-page .register-area p.title-text  {
+	margin-bottom: 35px;
+}
+
+
+/*=============================================================
+                     03 Book Now - CSS Styles
+==============================================================*/
+
+.book-now-activity {
+    padding: 50px 30px;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 3px 3px #e7e7e7, 0 0 2px #e7e7e7;
+    box-shadow: 0 3px 3px #e7e7e7, 0 0 2px #e7e7e7;
+}
+.book-now-activity:hover, .book-now-activity.active {
+    border: 1px solid #5fb13d;
+}
+.book-now-activity:hover > h3, .book-now-activity.active > h3 {
+    color: #5fb13d;
+}
+.book-now .devider-text {
+    margin-bottom: 35px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+.subscribe-packages {
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    min-height: 115px;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+.subscribe-packages h4 {
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 10px;
+}
+.subscribe-packages p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding-left: 30px;
+}
+.subscribe-packages p small {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.subscribe-details {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    color: #4d4d4d;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.subscribe-details p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding-left: 30px;
+}
+.subscribe-details p small {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+.subscribe-details p.info-boxes {
+    padding: 15px 0px 16px 20px;
+    margin-bottom: 0;
+}
+.subscribe-details p.info-boxes:nth-child(1), .subscribe-details p.info-boxes:nth-child(2), .subscribe-details p.info-boxes:nth-child(3), .subscribe-details p.action-links:nth-child(6)  {
+    border-right: 1px solid #d9d9d9;
+}
+.subscribe-details p.action-links {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+	margin-bottom: 0;
+}
+.subscribe-details p.action-links a {
+	color: #5fb13d;
+}
+.subscribe-details p.trainer-status {
+    text-align: center;
+    padding: 15px 0px;
+    background: #e6e6e6;
+    font-size: 18px;
+    font-weight: 600;
+	margin-bottom: 0;
+}
+.book-now a:hover {
+	text-decoration: none;
+}
+.book-now a p {
+	color: #777;
+}
+.book-now a p.col-xs-6 {
+	color: #4d4d4d;
+}
+.subscribe-packages:hover, .subscribe-packages.active {
+    border: 1px solid #5fb13d;
+}
+.subscribe-packages:hover > h4,.subscribe-packages.active > h4 {
+    color: #5fb13d;
+    border-bottom: 1px solid #5fb13d;
+}
+.subscribe-packages.best-value img {
+    position: absolute;
+    left: 8px;
+    top: 29px;
+    width: 100px;
+}
+
+
+/*=============================================================
+                     07 Booking - CSS Styles
+==============================================================*/
+
+.book-trainer-profile {
+    background: #fff;
+    border: 2px solid #e7e7e7;
+    -webkit-box-shadow: 0 3px 3px #e7e7e7, 0 0 2px #e7e7e7;
+    box-shadow: 0 3px 3px #e7e7e7, 0 0 2px #e7e7e7;
+    margin-bottom: 35px;
+    position: relative;
+}
+.book-trainer-profile:hover {
+	border-color: #5fb13d;
+}
+.book-trainer-profile:hover h3 {
+	color: #5fb13d;
+}
+.book-trainer-profile strong {
+    color: #e77852;
+    font-size: 14px;
+}
+.book-trainer-profile hr {
+    border-top: 2px solid #f3f3f3;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.book-trainer-profile img.trainer-profile-avator {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.book-trainer-profile p.trainer-details {
+    width: 90%;
+    margin: 0 auto 10px;
+}
+.book-trainer-profile p.certifications {
+    width: 45%;
+    float: left;
+    font-size: 14px;
+    border-right: 1px solid #e6e6e6;
+	color: #b4b4b8;
+}
+.book-trainer-profile p.certification-items {
+    font-size: 15px;
+    font-weight: 700;
+	color: #b4b4b8;
+	word-spacing: 5px;
+}
+.book-trainer-profile h3 {
+	margin-bottom: 0px;
+}
+.book-trainer-profile .rating-stars {
+    margin-bottom: 10px;
+    color: #646466;
+}
+.book-trainer-profile .fa.trainer-rating {
+    font-size: 20px;
+    color: #f5a623;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+	z-index: 9999;
+}
+.book-trainer-profile .fa.trainer-rating.fa-star-o {
+    color: #fff;
+}
+.book-trainer-profile p.trainer-rating-count {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 0px 0px 1px;
+    color: #fff;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+	z-index: 9999;
+}
+.book-trainer-profile .fa.fa-play-circle {
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+	z-index: 9999;
+}
+.book-trainer-profile p.trainer-note-container {
+    position: relative;
+}
+.book-trainer-profile span.trainer-note {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    position: absolute;
+    bottom: 16px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 0px;
+}
+
+
+/*=============================================================
+                   Calendar Page - CSS Styles
+==============================================================*/
+.calendar .main {
+    padding: 0 0 60px;
+}
+.calendar .workout-details {
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    color: #333c4d;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.col-1, .col-2, .col-3, .col-4 {
+    border-right: 1px solid #d9d9d9;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 20%;
+    float: left;
+}
+.col-5 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.workout-details p.info-link-1, .workout-details p.info-link-2 {
+    margin-bottom: 0;
+    padding: 7px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.workout-details p.info-link-1 {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 8px 0;
+}
+.calendar h2 {
+    color: #999999;
+}
+.calendar-wrapper {
+    background: #fff;
+    border-bottom: 2px solid #e6e6e6;
+	padding: 50px 0 30px;
+}
+.calendar-wrapper .table>tbody>tr>td {
+}
+.calendar-wrapper .table>tbody>tr>td p {
+    font-weight: 600;
+    color: #4d4d4d;
+    margin-bottom: 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 6px 0px 0px 0px;
+}
+.calendar-wrapper .table>tbody>tr>td.active p {
+    color: #5fb13d;	
+    border-color: #5fb13d;
+    cursor: pointer;
+}
+.calendar-wrapper .table>tbody>tr>td:hover p, .calendar-wrapper .table>tbody>tr>td.selected p, .calendar-wrapper .table>tbody>tr>td:focus p {
+    color: #006362;	
+    border-color: #006362;
+    cursor: pointer;
+}
+.calendar-wrapper .table>tbody>tr>td.current p {
+    color: #fff;	
+    border-color: #5fb13d;	
+    background-color: #5fb13d;
+    cursor: pointer;
+}
+.calendar-wrapper .table>tbody>tr>td.active {
+    background-color: #fff;
+}
+.calendar-wrapper .fa-chevron-right {
+    position: absolute;
+    right: 0;
+    top: 0px;
+	z-index: 999;
+}
+.calendar-wrapper .fa-chevron-left {
+    position: absolute;
+    left: 0;
+    top: 0px;
+	z-index: 999;
+}
+
+/*=============================================================
+                   Workout Summary - CSS Styles
+==============================================================*/
+
+
+.workout-details {
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+	color: #333c4d;
+	margin-bottom: 50px;
+}
+.workout-details p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding-left: 30px;
+}
+.workout-details p small {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+.workout-details p.info-boxes {
+    padding: 15px 0px 16px 20px;
+    margin-bottom: 0;
+}
+.workout-details .col-xs-6.col-md-3:nth-child(1),.workout-details .col-xs-6.col-md-3:nth-child(2), .workout-details .col-xs-6.col-md-3:nth-child(3) {
+    border-right: 1px solid #d9d9d9;
+}
+.workout-summary-details {
+    padding: 0;
+	color: #333;
+}
+.workout-summary-details p {
+    margin: 0;
+    padding: 12px 0px;
+}
+.workout-summary-details p.workout-type {
+    font-weight: 600;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.workout-summary-details p.workout-figurs {
+    background: #f0f0f0;
+}
+.workout-summary-details p.workout-figurs span.x {
+    padding: 0 15px;
+}
+.workout-summary-details p.workout-figurs span.blur {
+    color: #b3b3b3;
+}
+.workout-summary-details p:nth-child(3) {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.workout-summary-details:nth-child(1) p {
+    border-left: 1px solid #cccccc;
+}
+.workout-summary-details:nth-child(2) p, .workout-summary-details:nth-child(4) p, .workout-summary-details:nth-child(6) p {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.summary-row-1 .workout-summary-details:nth-child(1) p.workout-type {
+	border-top-left-radius: 5px;
+}
+.summary-row-1 .workout-summary-details:nth-child(6) p.workout-type {
+	border-top-right-radius: 5px;
+}
+.summary-row-2 .workout-summary-details:nth-child(1) p.workout-figurs:nth-child(3) {
+	border-bottom-left-radius: 5px;
+}
+.summary-row-2 .workout-summary-details:nth-child(6) p.workout-figurs:nth-child(3) {
+	border-bottom-right-radius: 5px;
+}
+.workout-summary img.trainer-avator, .workout-summary img.gym-avator {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.workout-summary .rating-stars .fa, .workout-summary .rating-stars .fa {
+    color: #f5a623;
+    font-size: 20px;
+}
+.workout-summary .report-link {
+    margin-top: 10px;
+}
+.workout-summary .report-link a {
+    color: #5fb13d;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*=============================================================
+                   Settings - CSS Styles
+==============================================================*/
+
+.settings h3.refer-code {
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+.settings-nav {
+    padding: 15px 0px;
+    margin: 0;
+}
+.settings-nav:nth-child(2) {
+    padding-top: 0;
+}
+.settings-nav:nth-child(3) {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.settings-nav a {
+    color: #999999;
+    text-decoration: none;
+    font-size: 20px;
+}
+.settings-nav a:hover {
+    text-decoration: none;
+}
+.settings-nav.active a, .settings-nav:hover a {
+    color: #5fb13d;
+}
+.settings label.radio-inline {
+    width: 33.33333%;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 0;
+    border: 1px solid #ccc;
+    margin-bottom: 35px;
+    color: #ccc;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.settings label.radio-inline.active {
+    border: 1px solid #5fb13d;
+    color: #fff;
+    background-color: #5fb13d;
+}
+.settings label.radio-inline:hover {
+    border: 1px solid #5fb13d;
+    color: #5fb13d;
+    background-color: transparent;
+}
+.settings label.radio-inline input[type=radio] {
+	display: none;
+}
+.subscribe-package {
+    background: #fff;
+    border: 2px solid #cccccc;
+    border-radius: 6px;
+    min-height: 115px;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+.subscribe-package h4 {
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 10px;
+}
+.subscribe-package p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding-left: 30px;
+}
+.subscribe-package p small {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.workout-indicator {
+    min-height: 25px;
+}
+.workout-indicator p {
+    background: #d8d8d8;
+}
+.workout-indicator p.active {
+    background: #5fb13d;
+}
+.workout-row {
+    padding: 15px 0px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+.workout-row:nth-child(5) {
+    border-bottom: 0px solid #e6e6e6;
+	margin-bottom: 30px;
+}
+.workout-row h4 {
+    color: #333c4d;
+    font-size: 32px;
+}
+.workout-row h4 small {
+    color: #333c4d;
+    font-size: 14px;
+    display: block;
+    text-transform: uppercase;
+}
+.workout-row .btn.btn-sm {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 32px;
+    padding: 8px 15px;
+}
+
+
+/*=============================================================
+                   Subscribe Page - CSS Styles
+==============================================================*/
+
+
+.subscribe-section .fa-chevron-left {
+    position: absolute;
+    top: 7px;
+    left: 0;
+	font-size: 24px;
+    color: #5fb13d;
+}
+.subscribe-section .fa-chevron-right {
+    position: absolute;
+    top: 7px;
+    right: 0;
+	font-size: 24px;
+    color: #5fb13d;
+}
+.subscribe-section .subscribe-package {
+    background: #5fb13d;
+    border: 2px solid #5fb13d;
+    border-radius: 6px;
+    min-height: 100px;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.subscribe-section .subscribe-package p {
+    font-size: 28px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding-left: 22px;
+}
+.subscribe-section .subscribe-package p small {
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.subscribe-section .subscribe-row {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 25px 0px 15px;
+    color: #333c4d;
+}
+.subscribe-section .subscribe-row > p > span, .subscribe-section .subscribe-row > p > strong > span {
+    float: right;
+}
+
+.subscribe-section .disclaimer {
+    padding: 35px 0;
+}
+    
+
+/*=============================================================
+                   My Profile Page - CSS Styles
+==============================================================*/
+
+.profile .main {
+    padding: 0 0px 60px 0px;
+}
+.profile-row {
+    padding: 20px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.profile-row h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #5fb13d;
+}
+.profile-row h1 small {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #333c4d;
+	text-transform: uppercase;
+}
+.profile-row h1 span {
+    color: #d5d5d5;
+}
+.profile-row h1.item-1, .profile-row h1.item-2, .profile-row h1.item-3 {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+.profile-row h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+.profile-row h2 small {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333c4d;
+	text-transform: uppercase;
+}
+
+
+/*=============================================================
+                   Messages - CSS Styles
+==============================================================*/
+
+.messages {
+    height: 100%;
+}
+.messages header {
+    z-index: 999;
+    position: relative;
+}
+.messages .main {
+    padding: 0;
+}
+.messages h3.chat-title {
+    margin-bottom: 50px;
+}
+.messages .user-list {
+    border-right: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    height: 100vh;
+    margin-top: -100px;
+    z-index: 0;
+    padding-top: 100px;
+    overflow-y: auto;
+}
+.messages .user-list img.messages-user-img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+.messages .messages-user {
+    padding: 10px 15px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.messages .messages-user.active, .messages .messages-user:hover {
+    background: #fff;
+	cursor: pointer;
+}
+.messages .messages-user.active img.messages-user-img {
+    border: 1px solid #e67650;
+}
+.messages .messages-user h2.user-title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom: 5px;
+}
+.messages .messages-user p.user-status {
+    font-size: 12px;
+    margin-top: 0;
+    margin-left: 90px;
+    color: #333c4d;
+    font-weight: 600;
+}
+.messages .chat-container {
+    background: #fff;
+    border-right: 1px solid #d9d9d9;
+    height: 100vh;
+    margin-top: -100px;
+    z-index: 0;
+    padding-top: 120px;
+    overflow-y: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+.messages .user-img-frame {
+	position: relative;
+}
+.messages .main span.new-message-notification {
+    background: #e67650;
+    padding: 0px 9px 2px 9px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: -3px;
+    color: #fff;
+}
+.messages input#sendMessage {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 12px 15px;
+}
+.messages input#sendMessage:focus {
+    outline: #fff auto 0px;
+}
+.chat-container p {
+    margin: 0 0 17px;
+    padding: 0 10px;
+}
+.chat-group-right {
+    text-align: right;
+}
+.chat-group-right > .chat-group-item {
+}
+.chat-group-left > p:nth-child(1) > .chat-group-item {
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+.chat-group-left > p:nth-last-child(1) > .chat-group-item {
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+.chat-group-right > p:nth-child(1) > .chat-group-item {
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+.chat-group-right > p:nth-last-child(1) > .chat-group-item {
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+.chat-group-item {
+    background: #f7f7f7;
+    padding: 7px;
+    color: #333c4d;
+}
+.chat-group-item.green {
+    background: #5fb13d;
+    color: #fff;
+}
+.chat-group-item.blue {
+    background: #006362;
+    color: #fff;
+}
+p.time-bubble  {
+    font-size: 12px;
+}
+hr {
+    border-top: 1px solid #fff;
+}
+.messages .mobile-user-list img.messages-user-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.messages .mobile-user-list {
+    padding: 10px 15px;
+    border-bottom: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    z-index: 9;
+    text-align: center;
+    background: #f7f7f7;
+}
+.messages .mobile-user-list.active {
+    background: #fff;
+}
+.messages .mobile-user-list.active, .messages .mobile-user-list:hover {
+    background: #fff;
+	cursor: pointer;
+}
+.messages .mobile-user-list.active img.messages-user-img {
+    border: 1px solid #e67650;
+}
+.messages .mobile-user-list h2.user-title {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.messages .main .mobile-user-list span.new-message-notification {
+    background: #e67650;
+    padding: 0px 9px 2px 9px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35px;
+    top: -3px;
+    color: #fff;
+}
+
+
+/*=============================================================
+                   Booking Pages - CSS Styles
+==============================================================*/
+
+header.alternate span.secondry-logo-text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    vertical-align: middle;
+}
+header.alternate span.steps-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    text-align: center;
+}
+header.alternate span.steps-text small {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #737375;
+}
+header.alternate span.secondry-logo-text a.header-booking-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+header.alternate span.secondry-logo-text a.header-booking-link:hover {
+    color: #333c4d;
+    border-bottom: 2px solid #333c4d;
+}
+#progressBar {
+    width: 20%;
+    top: 0px;
+    bottom: 50%;
+    left: 0px;
+    background-color: #5fb13d;
+    overflow: hidden;
+    height: 3px;
+}
+header.alternate span.mobile-steps {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    text-align: center;
+}
+header.alternate span.mobile-steps small {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #737375;
+}
+.booking-step-2 #progressBar {
+    width: 20%;
+}
+.booking-step-3 #progressBar {
+    width: 30%;
+}
+.booking-step-4 #progressBar {
+    width: 45%;
+}
+.booking-step-5 #progressBar {
+    width: 65%;
+}
+.booking-step-6 #progressBar {
+    width: 85%;
+}
+.booking-step-7 #progressBar {
+    width: 100%;
+}
+.booking-section h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+.booking-step-4 .settings label.radio-inline.active {
+    border: 1px solid #5fb13d;
+    color: #fff;
+    background: #5fb13d;
+}
+.booking-step-5 .book-now-activity h3, .booking-step-6 .book-now-activity h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+.booking-step-6 .col-xs-12.col-sm-6.col-md-3:nth-child(4) .book-now-activity h3 {
+    line-height: 71px;
+}
+.booking-step-7 .fa-check {
+    font-size: 25px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+.workout-row:nth-child(5) {
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 0px;
+}
+.booking-step-7 .workout-row:nth-child(7) {
+    border-bottom: 0px solid #e6e6e6;
+    margin-bottom: 30px;
+}
+.booking-step-7.booking-step-7-29 .workout-row:nth-child(7) {
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 0px;
+}
+.booking-step-7.booking-step-7-29 .workout-row:nth-child(8) {
+    border-bottom: 0px solid #e6e6e6;
+    margin-bottom: 30px;
+}
+.booking-step-7 .subscribe-section .subscribe-row:nth-child(4) {
+    border-bottom: 0px solid #e6e6e6;
+	margin-bottom: 30px;
+}
+.booking-step-3 .settings label.radio-inline.active {
+    border: 1px solid #5fb13d;
+    color: #fff;
+    background: #5fb13d;
+}
+.booking-step-3 .settings label.radio-inline {
+    width: 50%;
+}
+
+.book-location-profile {
+    background: #fff;
+    border: 2px solid #e7e7e7;
+    -webkit-box-shadow: 0 3px 3px #e7e7e7, 0 0 2px #e7e7e7;
+    box-shadow: 0 3px 3px #e7e7e7, 0 0 2px #e7e7e7;
+    margin-bottom: 35px;
+    position: relative;
+}
+.book-location-profile:hover {
+	border-color: #5fb13d;
+}
+.book-location-profile:hover h3 {
+	color: #5fb13d;
+}
+.book-location-profile hr {
+    border-top: 2px solid #f3f3f3;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.book-location-profile img.location-profile-avator {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.book-location-profile p.location-details {
+    width: 90%;
+    margin: 0 auto 10px;
+    font-size: 14px;
+}
+.book-location-profile p.action {
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    border-right: 1px solid #e6e6e6;
+    color: #b4b4b8;
+    text-align: center;
+}
+.book-location-profile p.action-delete {
+    font-size: 18px;
+    font-weight: 700;
+	color: #b4b4b8;
+    text-align: center;
+}
+.book-location-profile h3 {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.book-location-profile .rating-stars {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 9999;
+}
+.book-location-profile .fa.location-rating.fa-star-o {
+    color: #fff;
+}
+.book-location-profile p.location-miles-count {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1px 0px 0px 0px;
+    color: #333;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 50px;
+    height: 22px;
+    z-index: 9999;
+    background-color: #fff;
+}
+.book-location-profile p.location-note-container {
+    position: relative;
+}
+.carousel-indicators {
+    bottom: 0px !important;
+}
+
+.map-section {
+    border-top: 1px solid #c0c0c0;
+	background: #f0f0f0;
+}
+.map-section .map-image {
+    width: 100%
+}
+.booking-step-3.map .main {
+    padding: 60px 0px 0;
+}
+.booking-step-3 .find-gym {
+    padding: 30px 0;
+}
+.form-control.special {
+    background-image: url(../img/arrow-green.jpg);
+    background-repeat: no-repeat;
+    background-position: 99% 54%;
+}
+
+
+
+
+/*=============================================================
+                   Responsive - CSS Styles
+==============================================================*/
+
+/* Desktops and Laptops */
+
+@media (min-width: 1250px) {
+.container {
+    width: 1240px !important;		/* Set the max grid size 1240px */
+}
+}
+
+/* Tabs and iPads */
+
+@media (min-width: 767px) and (max-width: 991px) {
+.book-now-activity {
+    padding: 50px 15px;
+}
+.book-trainer-profile p.trainer-note {
+    top: 40%;
+}
+.workout-summary-details:nth-child(3) p, .workout-summary-details:nth-child(5) p {
+    border-left: 1px solid #cccccc;
+}
+}
+
+/* Tabs and iPads */
+
+@media (max-width: 991px) {
+
+.workout-details .col-xs-6.col-md-3:nth-child(2) {
+    border-right: 0px solid #d9d9d9;
+}
+.workout-details .col-xs-6.col-md-3:nth-child(1), .workout-details .col-xs-6.col-md-3:nth-child(2) {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+}
+
+
+/* Smartphones (portrait only) */
+
+
+@media (max-width: 768px) {
+	
+/* Gernal - CSS Styles */
+
+.main {
+    padding: 30px 0px;
+}
+.main .btn  {
+    font-size: 90%;
+}
+header {
+    padding: 15px 0px;
+}
+header .btn {
+    padding: 3px 0px;
+}
+header .btn-user-profile.btn {
+    padding: 3px 6px 0;
+}
+header span.secondry-logo-text {
+    font-size: 30px;
+}
+.booking header span.secondry-logo-text, .workout-summary header span.secondry-logo-text {
+    font-size: 15px;
+}
+.subscribe-package p {
+    padding-left: 10px;
+}
+
+/* Login - CSS Styles */
+
+.login-page header .btn {
+    padding: 9px 6px;
+    font-size: 12px;
+}
+.login-page .register-area label.radio-inline {
+    font-size: 16px;
+    padding: 18px 0px;
+}
+
+/* Book Now page - CSS Styles */
+
+.subscribe-packages p {
+    padding-left: 10px;
+}
+.subscribe-packages.best-value img {
+    left: 9px;
+    top: 32px;
+    width: 75px;
+}
+.subscribe-details p.info-boxes {
+    padding: 15px 0px 16px 10px;
+    font-size: 18px;
+}
+.subscribe-details p.info-boxes:nth-child(2)  {
+    border-right: 0px solid #e6e6e6;
+}
+.subscribe-details p.info-boxes:nth-child(1), .subscribe-details p.info-boxes:nth-child(2)  {
+    border-bottom: 1px solid #e6e6e6;
+}
+.subscribe-details p.action-links {
+    font-size: 16px;
+}
+
+/* Booking page - CSS Styles */
+
+
+.book-trainer-profile p.trainer-note {
+    top: 40%;
+}
+
+/* Workout Sumary page - CSS Styles */
+
+.workout-details p {
+    padding-left: 10px;
+}
+.workout-details p.info-boxes {
+    padding: 15px 0px 16px 10px;
+    font-size: 15px;
+}
+.workout-details {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.workout-details p small {
+    font-size: 12px;
+    font-weight: 500;
+}
+.summary-row-1, .summary-row-2 {
+    margin-right: 0;
+    margin-left: 0;
+}
+.workout-summary-details {
+    margin-bottom: 10px;
+}
+.workout-summary-details p {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.workout-summary-details p.workout-type {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.workout-summary-details p:nth-child(3) {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Workout Sumary page - CSS Styles */
+
+.settings-nav {
+    text-align: center;
+}
+.settings-nav:nth-child(3) {
+    border-top: 0px solid #e6e6e6;
+    border-bottom: 0px solid #5fb13d;
+}
+.settings-nav:nth-child(3) a {
+    border-bottom: 2px solid #5fb13d;
+    padding-bottom: 5px;
+}
+.settings-nav:nth-child(4) {
+    margin-bottom: 50px;
+}
+
+/* Edit Workout Page - CSS Styles */
+
+.edit-workout header span.secondry-logo-text {
+    font-size: 24px;
+}
+
+/* Subscribe Page - CSS Styles */
+
+.subscribe-section h2:nth-child(1) {
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 40px;
+}
+.subscribe-section .fa-chevron-left {
+    left: 15px;
+	top: 9px;
+}
+.subscribe-section .fa-chevron-right {
+    right: 15px;
+	top: 9px;
+}
+.subscribe-section .subscribe-package p {
+    font-size: 23px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding-left: 10px;
+}
+.subscribe-section .subscribe-package p small {
+    font-size: 12px;
+}
+
+/* Profile Page - CSS Styles */
+
+.profile .main {
+    padding: 0px 0px 60px 0px;
+}
+.profile-row h1.item-1, .profile-row h1.item-2, .profile-row h1.item-3 {
+    width: 100px;
+}
+.profile-row h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+.profile-row h1 small {
+    font-size: 12px;
+}
+.profile-row h2 {
+    font-size: 20px;
+    padding: 10px 0px 10px 10px;
+}
+.profile-row h2 small {
+    font-size: 12px;
+}
+.chat-group-item {
+    display: inline-block;
+    text-align: left;
+}
+.chat-container p {
+    margin: 0 0 10px;
+}
+.messages input#sendMessage {
+    position: fixed;
+}
+.messages .chat-container {
+    margin-top: -151px;
+    padding-top: 171px;
+	border-right: 0px solid #d9d9d9;
+}
+
+/* Alternate Booking pages - CSS Styles */
+
+.settings label.radio-inline {
+    font-size: 18px;
+}
+
+/* Calendar Page - CSS Styles */
+
+.col-1, .col-2, .col-3, .col-4, .col-5 {
+    border: 0px;
+}
+.col-1, .col-2, .col-3, .col-4 {
+    width: 50%;
+}
+.col-5 {
+    width: 100%;
+}
+.col-1, .col-3 {
+    border-right: 1px solid #d9d9d9;
+}
+.col-1, .col-2, .col-3, .col-4 {
+    border-bottom: 1px solid #d9d9d9;
+}
+.workout-details p.info-link-1 {
+    border-bottom: 0px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+}
+.workout-details p.info-link-1, .workout-details p.info-link-2 {
+    margin-bottom: 0;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 50%;
+    float: left;
+}
+.calendar-wrapper .table>tbody>tr>td {
+    padding: 8px 4px;
+}
+.calendar-wrapper .fa-chevron-right {
+    right: 30px;
+}
+.calendar-wrapper .fa-chevron-left {
+    left: 30px;
+}
+
+}
+
+/* Very small phones */
+
+@media (max-width: 320px) {
+
+.book-trainer-profile p.trainer-note {
+    top: 33%;
+}
+}
+
+
+@media (max-width: 330px) {
+
+.calendar-wrapper .table>tbody>tr>td {
+    padding: 0px;
+}
+
+}

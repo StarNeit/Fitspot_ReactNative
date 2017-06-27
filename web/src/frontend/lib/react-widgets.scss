@@ -1,0 +1,29 @@
+.rw-widget {
+  clear: both;
+  border-radius: 0;
+
+  input {
+    @extend .form-control;
+    border: none;
+  }
+}
+
+.rw-datetimepicker {
+  padding-right: 3.25em;
+
+  &.rw-has-both {
+    padding-right: 6.5em;
+  }
+
+  .rw-select {
+    width: 3.25em;
+  }
+
+  &.rw-has-both > .rw-select {
+    width: 6.5em;
+  }
+
+  .rw-btn {
+    width: 3.2em;
+  }
+}

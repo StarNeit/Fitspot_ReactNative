@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>27 - Booking Step 5 - Fitspot Consumer App</title>
+	
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome 4.7.0 -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- App Styles -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body class="logged-in booking-step-5">
+
+	<header class="alternate">
+		<div class="container">
+        
+        	<!-- Contain Logo for all devices and Primary navigation for all devices -->
+        	<div class="row">
+            
+            	<div class="col-xs-6 col-md-12">
+                	
+                    <img src="assets/img/fitspot-white.svg" alt="Fitspot" height="40" />
+                    
+                    <!-- Hide Booking Steps and Border from small devices to show in Dropdown menu -->
+                    <span class="logo-devider hidden-xs hidden-sm hidden-md"></span>
+                    <span class="secondry-logo-text hidden-xs hidden-sm hidden-md">
+                    New <a class="header-booking-link" href="#">Strength</a> 
+                    workout on <a class="header-booking-link" href="#">Mon 14th, 8:00am</a> 
+                    at <a class="header-booking-link" href="#">Equinox Gym</a> 
+                    with <a class="header-booking-link" href="#">Chad R</a> ...
+                    </span>
+                    
+                    <!-- Hide Booking Steps and Border from small devices to show in Dropdown menu -->
+                    <span class="steps-text hidden-xs hidden-sm hidden-md pull-right"><small>STEP</small>5/7</span>
+                    <span class="logo-devider hidden-xs hidden-sm hidden-md pull-right"></span>
+                    
+                    
+                </div><!-- /col-xs-6 /col-sm-12 -->
+                                
+                <!-- Booking Steps | Hide only on large devices - Visible on samll devices -->
+            	<div class="col-xs-6 text-right visible-xs visible-sm">
+                	
+                    <!-- Mobile Dropdown Steps -->
+					<div class="btn-group">
+  						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="mobile-steps"><small>STEP</small> 5/7</span>
+                        <span class="caret"></span>
+  						</button>
+  						<ul class="dropdown-menu booking-menu dropdown-menu-right">
+    						<li>New <a href="#">Strength</a> workout</li>
+    						<li>on <a href="#">Mon 14th, 8:00am</a></li>
+    						<li>at <a href="#">Equinox Gym</a></li>
+    						<li>with <a href="#">Chad R</a></li>
+    						<li>and <a href="#">2 friends</a></li>
+  						</ul>
+					</div><!-- /Mobile Dropdown Steps -->
+                	
+                    
+                </div><!-- /col-xs-6 -->
+                
+            </div><!-- /row -->
+            
+        </div><!-- /container -->
+	</header>
+    
+    <div id="progressBar"></div><!-- Prgress Bar Under the Header -->
+
+	<div class="main">
+    
+    <div class="container">
+    
+    	<div class="row">
+            <div class="col-xs-12">
+            	<div class="text-center">            	
+                	<h2 class="fw500">Workout Type</h2>                
+                </div>                
+            </div><!-- /col-xs-12 -->            
+        </div><!-- /row -->
+    
+    	<div class="row book-now">
+        
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            	<a href="#">
+            	<div class="book-now-activity text-center">            	
+                	<h3>$69</h3>
+                	<p>As a single, one-off session<br>
+                    No subscription</p>
+                </div>                
+                </a>
+            </div><!-- /col-xs-12 /col-sm-6 /col-md-3 --> 
+            
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            	<a href="#">
+            	<div class="book-now-activity text-center">            	
+                	<h3>$54</h3>
+                	<p>Subscribe for $216 a month<br>
+                    4 workouts at 10% off</p>
+                </div>                
+                </a>
+            </div><!-- /col-xs-12 /col-sm-6 /col-md-3 -->
+            
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            	<a href="#">
+            	<div class="book-now-activity text-center">            	
+                	<h3>$49</h3>
+                	<p>Subscribe for $392 a month<br>
+                    8 workouts at 20% off</p>
+                </div>
+                </a>
+            </div><!-- /col-xs-12 /col-sm-6 /col-md-3 -->
+            
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            	<a href="#">
+            	<div class="book-now-activity text-center">            	
+                	<h3>$44</h3>
+                	<p>Subscribe for $528 a month<br>
+                    12 workouts at 30% off</p>
+                </div>
+                </a>
+            </div><!-- /col-xs-12 /col-sm-6 /col-md-3 -->
+                       
+        </div><!-- /row -->
+        
+    </div><!-- /container -->
+    
+    </div><!-- /main -->
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Include all custom scripts -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>

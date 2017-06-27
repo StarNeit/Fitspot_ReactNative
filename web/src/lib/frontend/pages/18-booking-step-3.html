@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>18 - Booking Step 3 - Fitspot Consumer App</title>
+	
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome 4.7.0 -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- App Styles -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body class="logged-in booking-step-3">
+
+	<header class="alternate">
+		<div class="container">
+        
+        	<!-- Contain Logo for all devices and Primary navigation for all devices -->
+        	<div class="row">
+            
+            	<div class="col-xs-6 col-md-12">
+                	
+                    <img src="assets/img/fitspot-white.svg" alt="Fitspot" height="40" />
+                    
+                    <!-- Hide Booking Steps and Border from small devices to show in Dropdown menu -->
+                    <span class="logo-devider hidden-xs hidden-sm hidden-md"></span>
+                    <span class="secondry-logo-text hidden-xs hidden-sm hidden-md">
+                    New <a class="header-booking-link" href="#">Strength</a>  
+                    workout on <a class="header-booking-link" href="#">Mon 14th, 8:00am</a> at...
+                    </span>
+                    
+                    <!-- Hide Booking Steps and Border from small devices to show in Dropdown menu -->
+                    <span class="steps-text hidden-xs hidden-sm hidden-md pull-right"><small>STEP</small>3/7</span>
+                    <span class="logo-devider hidden-xs hidden-sm hidden-md pull-right"></span>
+                    
+                    
+                </div><!-- /col-xs-6 /col-sm-12 -->
+                                
+                <!-- Booking Steps | Hide only on large devices - Visible on samll devices -->
+            	<div class="col-xs-6 text-right visible-xs visible-sm">
+                	
+                    <!-- Mobile Dropdown Steps -->
+					<div class="btn-group">
+  						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="mobile-steps"><small>STEP</small> 3/7</span>
+                        <span class="caret"></span>
+  						</button>
+  						<ul class="dropdown-menu booking-menu dropdown-menu-right">
+    						<li>New <a href="#">Strength</a> workout</li>
+    						<li>on <a href="#">Mon 14th, 8:00am</a></li>
+    						<li>at <a href="#">Equinox Gym</a></li>
+    						<li>with <a href="#">Chad R</a></li>
+    						<li>and <a href="#">2 friends</a></li>
+  						</ul>
+					</div><!-- /Mobile Dropdown Steps -->
+                	
+                    
+                </div><!-- /col-xs-6 -->
+                
+            </div><!-- /row -->
+            
+        </div><!-- /container -->
+	</header>
+    
+    <div id="progressBar"></div><!-- Prgress Bar Under the Header -->
+
+	<div class="main">
+    
+    <div class="container">
+    
+    	<div class="row">
+        
+            <div class="col-xs-12">
+            	<div class="text-center">            	
+                	<h2 class="fw500 marginBottom20">Choose Location</h2>                
+                </div>                
+            </div><!-- /col-xs-12 -->
+            
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center settings">
+                  
+            	<label class="radio-inline active trainerL" for="inlineRadio1">
+            	  <input type="radio" class="trainer" name="inlineRadioOptions2" id="inlineRadio1" value="Previous Location" checked> Previous Location
+            	</label>
+            	<label class="radio-inline trainerL" for="inlineRadio2">
+            	  <input type="radio" class="trainer" name="inlineRadioOptions2" id="inlineRadio2" value="New Location"> New Location
+            	</label>
+                    
+            </div><!-- /col-xs-12 -->
+            
+        </div><!-- /row -->
+    
+    	<div class="row">
+        
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            	<div class="book-location-profile text-center">
+                	<!-- Rating Count on the image. Note: add inline display: none; css to hide it. -->
+                    <p class="location-miles-count">6 Miles</p>
+                	<!-- Location Rating on the image -->
+                    <div class="rating-stars">
+                    	<!-- Use "fa-star" for filled star and "fa-star-o for empty star" -->
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                	
+                    <!-- Make sure to use 500 x 325 image size to keep the size consistent -->
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="assets/img/location-palceholder-1.jpg" alt="Location Discription">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/location-palceholder-2.jpg" alt="Location Discription">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/location-palceholder-3.jpg" alt="Location Discription">
+                        </div>
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div><!-- /carousel slider ends here -->                        
+
+                	<h3>Ultra Fitness Gmy</h3>
+                	<!-- Use limited and same number of word in order to keep profile size same for each trainer -->
+                	<p class="location-details">SUNSET BLVD 1017, ATLANTA</p>
+                    <p class="action">
+                      <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                    </p>
+                    <p class="action-delete">
+                      <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+            </div><!-- /col-xs-12 /col-sm-6 /col-md-3 -->
+        
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            	<div class="book-location-profile text-center">
+                	<!-- Rating Count on the image. Note: add inline display: none; css to hide it. -->
+                    <p class="location-miles-count">6 Miles</p>
+                	<!-- Location Rating on the image -->
+                    <div class="rating-stars">
+                    	<!-- Use "fa-star" for filled star and "fa-star-o for empty star" -->
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                	
+                    <!-- Make sure to use 500 x 325 image size to keep the size consistent -->
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="assets/img/location-palceholder-2.jpg" alt="Location Discription">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/location-palceholder-3.jpg" alt="Location Discription">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/location-palceholder-1.jpg" alt="Location Discription">
+                        </div>
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div><!-- /carousel slider ends here -->                        
+
+                	<h3>Ultra Fitness Gmy</h3>
+                	<!-- Use limited and same number of word in order to keep profile size same for each trainer -->
+                	<p class="location-details">SUNSET BLVD 1017, ATLANTA</p>
+                    <p class="action">
+                      <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                    </p>
+                    <p class="action-delete">
+                      <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+            </div><!-- /col-xs-12 /col-sm-6 /col-md-3 -->
+        
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            	<div class="book-location-profile text-center">
+                	<!-- Rating Count on the image. Note: add inline display: none; css to hide it. -->
+                    <p class="location-miles-count">6 Miles</p>
+                	<!-- Location Rating on the image -->
+                    <div class="rating-stars">
+                    	<!-- Use "fa-star" for filled star and "fa-star-o for empty star" -->
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                	
+                    <!-- Make sure to use 500 x 325 image size to keep the size consistent -->
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="assets/img/location-palceholder-3.jpg" alt="Location Discription">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/location-palceholder-2.jpg" alt="Location Discription">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/location-palceholder-1.jpg" alt="Location Discription">
+                        </div>
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div><!-- /carousel slider ends here -->                        
+
+                	<h3>Ultra Fitness Gmy</h3>
+                	<!-- Use limited and same number of word in order to keep profile size same for each trainer -->
+                	<p class="location-details">SUNSET BLVD 1017, ATLANTA</p>
+                    <p class="action">
+                      <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                    </p>
+                    <p class="action-delete">
+                      <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+            </div><!-- /col-xs-12 /col-sm-6 /col-md-3 -->
+        
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            	<div class="book-location-profile text-center">
+                	<!-- Rating Count on the image. Note: add inline display: none; css to hide it. -->
+                    <p class="location-miles-count">6 Miles</p>
+                	<!-- Location Rating on the image -->
+                    <div class="rating-stars">
+                    	<!-- Use "fa-star" for filled star and "fa-star-o for empty star" -->
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star" aria-hidden="true"></i>
+                    	<i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                	
+                    <!-- Make sure to use 500 x 325 image size to keep the size consistent -->
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="assets/img/location-palceholder-2.jpg" alt="Location Discription">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/location-palceholder-1.jpg" alt="Location Discription">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/location-palceholder-3.jpg" alt="Location Discription">
+                        </div>
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div><!-- /carousel slider ends here -->                        
+
+                	<h3>Ultra Fitness Gmy</h3>
+                	<!-- Use limited and same number of word in order to keep profile size same for each trainer -->
+                	<p class="location-details">SUNSET BLVD 1017, ATLANTA</p>
+                    <p class="action">
+                      <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                    </p>
+                    <p class="action-delete">
+                      <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+            </div><!-- /col-xs-12 /col-sm-6 /col-md-3 -->
+                       
+        </div><!-- /row -->
+    
+    	<div class="row text-center marginBottom50">
+            <div class="col-xs-12 col-sm-6  col-sm-offset-3">
+                
+            	<a href="#" class="btn btn-info btn-lg btn-block disabled">Load More Previous Locations</a>
+                       
+        	</div><!-- /col-xs-12 -->
+        </div><!-- /row -->
+    
+    	<div class="row text-center">
+            <div class="col-xs-12 col-sm-6  col-sm-offset-3">
+                
+            	<a href="#" class="btn btn-info btn-lg btn-block">Add Location</a>
+                       
+        	</div><!-- /col-xs-12 -->
+        </div><!-- /row -->
+        
+    </div><!-- /container -->
+    
+    </div><!-- /main -->
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Include all custom scripts -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+@mixin font-face($name, $path, $weight: null, $style: null, $stretch: normal) {
+  @font-face{
+    font-family: quote($name);
+    font-weight: $weight;
+    font-style: $style;
+    font-stretch: $stretch;
+    src: url($path + '.eot') format('embedded-opentype');
+    src: url($path + '.ttf.woff2') format('woff2');
+    src: url($path + '.otf.woff') format('woff');
+    src: url($path + '.otf') format('opentype');
+    src: url($path + '.ttf') format('truetype');
+  }
+}

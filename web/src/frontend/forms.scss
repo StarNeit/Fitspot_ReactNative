@@ -1,0 +1,78 @@
+.form-group {
+    margin-bottom: 35px;
+}
+
+.form-control {
+  height: 60px;
+  padding: 6px 18px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333;
+  border-radius: 0px;
+
+  &:focus {
+    border-color: #5fb13d;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0px 0px #5fb13d, 0 0 0px #5fb13d;
+    box-shadow: inset 0 0px 0px #5fb13d, 0 0 0px #5fb13d;
+  }
+}
+
+input[type=date].form-control, input[type=time].form-control, input[type=datetime-local].form-control, input[type=month].form-control, input[type=week].form-control {
+    padding: 17px 18px;
+}
+
+label {
+  float: left;
+  width: 100%;
+  text-align: left;
+  font-weight: 500;
+  color: #333;
+
+  small {
+    font-size: 100%;
+    font-weight: 500;
+    color: #777;
+  }
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0;
+    border-right: 0px solid #ccc;
+    border: 1px solid #ccc;
+}
+
+.input-group .form-control {
+    border-left: 0px;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+}
+
+.input-group .form-control:focus {
+    border-color: #ccc;
+}
+
+.input-group-addon .fa-search {
+    color: #adadae;
+}
+
+label span {
+    float: right;
+}
+label span a {
+    color: #5fb13d;
+	text-decoration: none;
+    font-weight: 400;
+}
+label span a:hover {
+    color: #5fb13d;
+	text-decoration: none;
+}
+

@@ -1,0 +1,23 @@
+.braintree-dropin {
+  .form-control {
+    clear: both;
+
+    &.braintree-hosted-fields-focused {
+      border-color: #5fb13d;
+    }
+
+    &.braintree-hosted-fields-invalid {
+      border-color: #a94442;
+    }
+
+    &.invalid {
+      border-color: #a94442;
+    }
+
+    .braintree-card-type {
+      position: absolute;
+      right: 32px;
+      font-size: 44px;
+    }
+  }
+}

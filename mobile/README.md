@@ -226,7 +226,3 @@ One of the coolest feature is the ability to install your fonts, just by adding 
 
 Having a trouble? Facing some issues? Need more informations? Just post an issue or send a PR, we'll be happy to help you.
 Let us know if there is something more you'd like to see in the documentation!
-
-## Contributors
-
-This project is maintained by [Léo Le Bras](https://twitter.com/Leo_LeBras) and [Charles Mangwa](https://twitter.com/Charles_Mangwa), come say hi on Twitter whenever you want 😊!
